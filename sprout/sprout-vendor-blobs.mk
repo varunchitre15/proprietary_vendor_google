@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/google/sprout/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/google/sprout/proprietary/bin/wmt_loader:system/bin/wmt_loader \
+    vendor/google/sprout/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/google/sprout/proprietary/etc/firmware/WIFI_RAM_CODE_SOC:system/etc/firmware/WIFI_RAM_CODE_SOC \
     vendor/google/sprout/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
     vendor/google/sprout/proprietary/etc/firmware/catcher_filter_1_wg_n.bin:system/etc/firmware/catcher_filter_1_wg_n.bin \
