@@ -16,15 +16,15 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter sprout4 sprout8, $(TARGET_DEVICE)),)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libaudiopolicymanager
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/vendor/lib/libaudiopolicymanager.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-include $(BUILD_PREBUILT)
+# include $(CLEAR_VARS)
+# LOCAL_MODULE := libaudiopolicymanager
+# LOCAL_MODULE_OWNER := google
+# LOCAL_SRC_FILES := proprietary/vendor/lib/libaudiopolicymanager.so
+# LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
+# LOCAL_MODULE_TAGS := optional
+# LOCAL_MODULE_SUFFIX := .so
+# LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+# include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := FmRadioTrampoline2
