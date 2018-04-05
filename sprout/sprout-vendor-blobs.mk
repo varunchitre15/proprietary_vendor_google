@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/google/sprout/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/google/sprout/proprietary/bin/wmt_loader:system/bin/wmt_loader \
-    vendor/google/sprout/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/google/sprout/proprietary/etc/firmware/ROMv1_patch_1_0_hdr.bin:system/etc/firmware/ROMv1_patch_1_0_hdr.bin \
     vendor/google/sprout/proprietary/etc/firmware/ROMv1_patch_1_1_hdr.bin:system/etc/firmware/ROMv1_patch_1_1_hdr.bin \
     vendor/google/sprout/proprietary/etc/firmware/WIFI_RAM_CODE_SOC:system/etc/firmware/WIFI_RAM_CODE_SOC \
@@ -62,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     vendor/google/sprout/proprietary/lib/hw/memtrack.mt6582.so:system/lib/hw/memtrack.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/radio.fm.mt6582.so:system/lib/hw/radio.fm.mt6582.so \
-    vendor/google/sprout/proprietary/lib/hw/sensors.mt6582.so:system/lib/hw/sensors.mt6582.so \
+    vendor/google/sprout/proprietary/lib/hw/sensors.mt6582.so:system/lib/sensors.mt6582.so \
     vendor/google/sprout/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/google/sprout/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/google/sprout/proprietary/lib/libMali.so:system/lib/libMali.so \
@@ -112,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/google/sprout/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
     vendor/google/sprout/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
-    vendor/google/sprout/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/google/sprout/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/google/sprout/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/google/sprout/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
@@ -127,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
     vendor/google/sprout/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/google/sprout/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so \
-    vendor/google/sprout/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/google/sprout/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/google/sprout/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/google/sprout/proprietary/lib/libmnl.so:system/lib/libmnl.so \
